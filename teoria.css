@@ -1,0 +1,51 @@
+body{
+   background-image: url('Imagenes/fondo.jpg');     
+}
+p{
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: black;
+}
+h1{
+    background-color: chocolate;
+    color:beige;
+    border: solid;
+    border-radius:20px;
+    border: dashed;
+}
+h2,h3{
+    color: rgb(253, 96, 5);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+}
+.button {
+  background-color: #201701ad;
+  color: white;
+  border: double;
+  padding: 15px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  justify-content: center;
+  transition: background 0.3s;
+  min-width: 200px;
+}
+.icon {
+  font-size: 22px;
+}
+.button:hover {
+  background-color: antiquewhite;
+  color: #ff4d4d;
+}
